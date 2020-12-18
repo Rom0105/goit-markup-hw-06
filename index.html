@@ -446,10 +446,8 @@
 			</div>
 			<div>
 				<p class="footer-text">Подпишитесь на рассылку</p>
-				<div class="flex-form">
-					<form class="form">
-						<input type="email" name="mail" placeholder="E-mail">
-					</form>
+				<form class="form">
+					<input type="email" name="mail" placeholder="E-mail">
 					<button type="submit" class="form-button">
 						Подписаться
 						<svg class="button-icon" width="24" height="24">
@@ -457,7 +455,7 @@
 							</use>
 						</svg>
 					</button>
-				</div>
+				</form>
 			</div>
 		</div>
 	</footer>
@@ -472,7 +470,7 @@
 				</svg>
 			</button>
 			<div class="modal-list">
-				<h2 class="modal-text">Оставьте свои данные, мы вам перезвоним</h2>
+				<p class="modal-text">Оставьте свои данные, мы вам перезвоним</p>
 				<form action="">
 					<div class="modal-label">
 						<label for="name">Имя</label>
@@ -492,15 +490,17 @@
 					</div>
 					<div class="modal-label label-margin">
 						<label for="mail">Почта</label>
+
 						<input class="form-margin" type="email" name="mail" id="mail">
 						<svg class="modal-svg" width="15" height="12">
 							<use href="./svgsprite/spaite.svg#icon-meil">
 							</use>
 						</svg>
+
 					</div>
 					<div class="modal-label label-margin">
 						<label for="coment">Комментарий</label>
-						<textarea name="coment" class="form-textarea form-margin" id="coment" rows="10"
+						<textarea name="coment" class="form-textarea form-margin" id="coment" rows="8"
 							placeholder="Введите текст"></textarea>
 					</div>
 					<div class="modal-checkbox">
@@ -509,9 +509,7 @@
 								договорa</a>
 						</label>
 					</div>
-					<div class="button-content">
-						<button type="submit" class="modal-button">Отправить</button>
-					</div>
+					<button type="submit" class="modal-button">Отправить</button>
 				</form>
 			</div>
 		</div>
