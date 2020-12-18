@@ -330,7 +330,13 @@ img {
 	color: var(--grey2);
 }
 
+.footer-item {
+	margin-right: 93px;
+  }
+
 .footer-text {
+	margin-bottom: 20px;
+
 	font-style: normal;
 	font-weight: bold;
 	font-size: 14px;
@@ -373,3 +379,39 @@ img {
 .footer-icon:not(:last-child) {
 	margin-right: 10px;
 }
+
+.flex-form {
+	display: flex;
+	align-items: center;
+  }
+  
+  .form input {
+	width: 358px;
+	padding: 15px 16px;
+	
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+	border-radius: 4px;
+	background: var(--violet);
+  }
+  
+  .form-button {
+	display: flex;
+	align-items: center;
+  
+	margin-left: 12px;
+	padding: 10px 28px 10px 29px;
+	border-radius: 4px;
+	
+	font-size: 16px;
+	line-height: 1.87;
+	letter-spacing: 0.06em;
+	
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	background-color: var(--cyan);
+	color: var(--white);
+  }
+  
+  .button-icon {
+	margin-left: 10px;
+  }
